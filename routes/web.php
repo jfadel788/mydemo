@@ -17,7 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+<<<<<<< HEAD
 
 Route::get("/about",function(){
     dd("about page");
+=======
+Route::get("/payement",function(){
+    dd("payement page");
+>>>>>>> jawad
 });
